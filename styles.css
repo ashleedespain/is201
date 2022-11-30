@@ -1,0 +1,58 @@
+body{
+    color: black;
+    background-color: antiquewhite;
+    background-image: url(https://images3.alphacoders.com/103/thumb-1920-1039671.jpg);
+    background-size: fill;
+    font-family: fantasy;
+}
+p{
+    color: black;
+    font-family: chiller;
+    background-color: azure;
+    font-weight: bold;
+    text-align: center;
+}
+.anything{
+    border: solid 2px mediumseagreen;
+    font-family: papyrus;
+    background-color: blueviolet;
+    color: aquamarine;
+    font-size: 120%;
+}
+a:hover{
+    text-decoration: overline;
+    font-size: 110%;
+    background-color: azure;
+}
+.anything:hover{
+    border: dashed 5px lime;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-decoration: line-through;
+    color: brown;
+}
+li:hover{
+    /*
+    1. grow in size by 5%
+    2. change background color to some mid light color
+    3. border around it (something small and subtle)
+    */
+    border: solid 2px lavenderblush;
+    font-size: 105%;
+    background-color: lightsalmon;
+}
+img{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+}
+.aboutheadings{
+    font-weight: bold;
+    font-style: normal;
+}
+.underline{text-decoration: underline;}
+.bold {font-weight: bold;}
